@@ -1,49 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta lang="en" charset="utf-8">
         <title>Personal Portfolio</title>
         <link href="styles.css" rel="stylesheet"/>
-        <lang="en"
+        <style> 
+            @font-face { 
+                font-family: "Pixelify_Sans";
+                src: url(assets/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
+            }
+        </style>
     </head>
     <body>
         <header id="header">
-            // title, icon in corner
+            <div>
+                <h4>About me</h4>
+                <h4>Projects</h4>
+                <h4>Recommendations</h4>
+                <img id="mini-avtr" class="profile-pic" src="assets/pingu-icon.jpg" alt="picture of pingu holding fish">
+            </div>
         </header>
         <main>
-            <div class="content-wrapper"
-                <section class="about-me">
+            <div class="content-wrapper">
+                <section class="bio">
                   <div>
-                    //Image
+                    <img id="big-avtr" class="profile-pic" src="assets/pingu-icon.jpg" alt="picture of pingu holding fish">
                     </div>
                     <div>
-                    //Bio
+                    <h1> Hi! I'm Maura.</h1>
+                    <p> I am an aspiring techie studying a part-time level 3 software development course.<p>
                  </div>
                 </section>
-                <section class="projects">
+            <div class="middle-wrapper">
+                <section id="projects">
                  <div> 
-                    // hyperlinks to project with brief description
+                    <h2>Projects</h2>
+                    <p>Hyperlinks to projects</p>
                     </div>
+                </section>
+                <section id="currently">
                     <div>
-                    // what am i currently working on
+                    <h2>Currently working on</h2>
+                    <p>brief description of course and coding project</p>
                  </div>
                 </section>
-                <section class="recommendations">
+            </div>
+            <div class="bottom wrapper">
+                <section id="about-me">
+                    <h1>Get to know me!</h1>
+                    <p>I am 20, an ardent consumer of movies and books.</p>
+                    <p>Skills:</p>
+
+                </section>
+                <section id="movies">
                     <div>
-                        // of the month description
-                    </div>
-                    <div>
-                        //top 3 movies, books, games.
+                        <h2>Movies of the month</h2>
+                        <p>Here are some movies that have made my month whole</p>
                     </div>
                 </section>
-                <section class="contact-me">
-                // icons for github and linkedin
-             </section>
+                <section id="books">
+                    <div>
+                        <h2>Books of the month</h2>
+                        <p>Here are the books I am reading this month</p>
+                    </div>
+                </section>
+            </div>
             </div>
         </main>
         <footer id="footer">
-            // icon / links to github repository
-            // made in 2025
-            </div>                
+            <h4> Made in 2025</h4>
+            <div>
+                <a href="https://github.com/m4uraj4ye"><img class="icon" id="github" src="assets/github-icon.png" alt="github icon"></a>
+                <a href="https://www.codedex.io/@l4dyBuug"><img class="icon" id="codedex" src="assets/codedex-icon.png" alt="codedex icon"></a>
+                <a href="https://www.linkedin.com/in/maura-douglas-morgan-7b1b852b6/"><img class="icon" id="linkedin" src="assets/linkedin-icon.png" alt="linkedin icon"></a>
+                <a href="https://letterboxd.com/maurathexplorer/"><img class="icon" id="letterboxd" src="assets/letterboxd-icon.png" alt="letterboxd icon"></a>
             </div>
         </footer>
     </body>

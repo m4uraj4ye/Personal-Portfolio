@@ -1,0 +1,74 @@
+* {
+    margin: 15;
+    padding: 15;
+    background-color: #d69ae5;
+}
+body {
+    font-family: "Pixelify_Sans";
+    font-weight: 100;
+    color: lavender;
+}
+#header {
+    text-align: center;
+
+    
+}
+#footer {
+    display: flex;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15%;
+    border-color:antiquewhite;
+    text-align: center;
+}
+.bio {
+    text-align: center;
+    display: block;
+}
+
+.middle-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#projects {
+    display: block;
+}
+
+#recommendations {
+    display: block;
+}
+
+#currently {
+    display: block;
+}
+
+#movies {
+    display: block;
+}
+
+#books {
+    display: block;
+}
+    
+.icon {
+    width: 50px;
+    color: white;
+}
+
+.profile-pic {
+    border-radius: 75%;
+    border-color: white;
+    border-width: medium;
+}
+
+#mini-avtr {
+    width: 50px;
+}
+
+#big-avtr {
+    width: 100px;
+}
