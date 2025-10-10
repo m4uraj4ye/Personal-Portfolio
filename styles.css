@@ -8,13 +8,16 @@ body {
     font-weight: 100;
     color: lavender;
 }
-#header {
+header {
     text-align: center;
+    padding: 20px;
 
     
 }
-#footer {
-    display: flex;
+
+footer {
+    text-align: center;
+    padding: 20px;
 }
 
 .content-wrapper {
@@ -67,6 +70,7 @@ body {
 
 #mini-avtr {
     width: 50px;
+    left: 200px;
 }
 
 #big-avtr {
