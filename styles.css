@@ -1,6 +1,4 @@
 * {
-    margin: 15;
-    padding: 15;
     background-color: #d69ae5;
 }
 body {
@@ -8,60 +6,7 @@ body {
     font-weight: 100;
     color: lavender;
 }
-header {
-    text-align: center;
-    padding: 20px;
-
     
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
-.content-wrapper {
-    display: flex;
-    flex-direction: column;
-    border-radius: 15%;
-    border-color:antiquewhite;
-    text-align: center;
-}
-.bio {
-    text-align: center;
-    display: block;
-}
-
-.middle-wrapper {
-    display: flex;
-    flex-direction: row;
-}
-
-#projects {
-    display: block;
-}
-
-#recommendations {
-    display: block;
-}
-
-#currently {
-    display: block;
-}
-
-#movies {
-    display: block;
-}
-
-#books {
-    display: block;
-}
-    
-.icon {
-    width: 50px;
-    color: white;
-}
-
 .profile-pic {
     border-radius: 75%;
     border-color: white;
@@ -70,9 +15,22 @@ footer {
 
 #mini-avtr {
     width: 50px;
-    left: 200px;
 }
 
 #big-avtr {
     width: 100px;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
 }
